@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav{
+    background-color: rgb(226, 136, 226) ;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__container{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+.nav__item{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.nav__item:hover,
+.nav__item:active{
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+
+
+.conteiner-dullmy{
+background: url("fondo.jpg");
+width: 89%;
+height: 25rem;
+padding: 80px;
+background-size:cover ;
+display: flex;
+align-items: center;
+justify-content: center;
+   
+}
+
+.conteiner-pm{
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+    color: white;
+    font-size: 2rem;
+    border-radius: 3rem;
+}
+
+
+
+.conteiner-products{
+    width: 50%;
+    margin: 5rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    height: 60vh;
+    display: flex;
+    row-gap: 1rem;}
+ 
+
+[class*="prod"]{
+    padding: .5rem;
+    flex-basis: 1rem;
+    flex-wrap: 1;
+    transition:.3s;
+    position: relative;
+    border-radius: .5rem 0 0 .5rem;}
+
+[class*="prod"]:hover{
+    flex-grow: 15;
+ 
+}
+
+.prod-pasteles p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+.prod-cupcakes p {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+.prod-croissans p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+.prod-donas p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+
+
+.prod-pasteles{
+    background:url("pasteles.jpg");
+    background-size:cover ;
+    background-position: right center;
+    flex-grow: 1;
+}
+
+
+.prod-croissans{
+    background:url("croissans.jpg");
+    background-size:cover ;
+    background-position: right center;
+}
+
+
+.prod-cupcakes{
+    background:url("cupcake.jpg");
+    background-size:cover ;
+    background-position: right center;
+}
+
+.prod-donas{
+    background:url("dona.jpg");
+    background-size:cover ;
+    background-position: right center;
+  
+}
+    
+.main-footer{
+    background-color: rgb(226, 136, 226);
+    display: flex;
+    justify-content: center;
+}
+.social-net{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.social-icon{
+   background-color: rgb(255, 255, 255);
+   width: 2rem;
+   height: 2rem;
+   border-radius: .5rem;
+    
+}
+
